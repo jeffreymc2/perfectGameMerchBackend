@@ -14,13 +14,7 @@
     "name": {
       "type": "string"
     },
-    "description": {
-      "type": "richtext"
-    },
-    "upc": {
-      "type": "biginteger"
-    },
-    "images": {
+    "productimages": {
       "allowedTypes": [
         "images",
         "files",
@@ -30,7 +24,7 @@
       "type": "media",
       "multiple": true
     },
-    "image": {
+    "productHero": {
       "allowedTypes": [
         "images",
         "files",
