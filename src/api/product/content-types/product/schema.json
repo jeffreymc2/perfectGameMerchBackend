@@ -25,6 +25,15 @@
         "videos",
         "audios"
       ]
+    },
+    "customers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::customer.customer",
+      "mappedBy": "product"
+    },
+    "TotalQuantity": {
+      "type": "biginteger"
     }
   }
 }
