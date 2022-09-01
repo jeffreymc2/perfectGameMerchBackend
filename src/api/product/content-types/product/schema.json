@@ -14,17 +14,7 @@
     "name": {
       "type": "string"
     },
-    "productimages": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "productHero": {
+    "mainimage": {
       "allowedTypes": [
         "images",
         "files",
